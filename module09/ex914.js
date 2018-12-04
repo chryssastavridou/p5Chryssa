@@ -12,6 +12,7 @@ function draw() {
     ellipse(mouseX, mouseY, 20);
   }
   fill ('red');
+  stroke ('red')
   ellipse (600,250,50);
   fill('green');
   ellipse (600,350,50);
