@@ -12,9 +12,9 @@ function setup() {
   // load the pixel array of the image in order to be able to manipulate them
   choco2.loadPixels();
   // go through each row of the choco1 image
-  for (let y = 0; y < height; y++) {
+  for (let y = 55; y < height; y++) {
     // go through each column of the choco1 image
-    for (let x = 0; x < width; x++) {
+    for (let x = 25; x < width; x++) {
       // use get() to take each pixel
       let myPixel = choco1.get(x, y);
       // set it to the opposite corner (turn image upside down)
